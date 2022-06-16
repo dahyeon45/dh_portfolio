@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dahyeon jeong portfolio </title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header id = "header">
+        <img id = "logo" 
+       src = "https://dhphotoarchive.s3.ap-northeast-2.amazonaws.com/dhlogo.svg">
+        </img>
+
+    </header>
+
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-xl-3" id = "section-1">
+                <h1 id = "main-name">dahyeon&nbsp;&nbsp;<br>Jeong</h1>
+            </div>
+            <div class = "col-xl-9" id = "section-2"> 
+
+                <!---
+                <div id = "about">
+                    <div id = "l-text">○ About Me</div>
+                    <div class = "detail-container">
+                        <div id = "s-text">
+                            문제해결과 디자인을 좋아하며,
+                            하고 싶은 일에 열정을 쏟을 줄 아는 
+                            개발자 꿈나무입니다. 
+                            <br><br>
+                        </div>
+                        <div> E-mail: dahyeon405@naver.com </div>
+                        <div> 학력: 서울대학교 생명과학부 학사</div>
+
+                    </div>
+
+                </div>    
+                -->
+                <div id = "l-text">○ Personal Projects</div>
+
+                <div class = "detail-container">
+                    <div id = "portfolio-1">
+                        <div id = "m-text">1. Personal photo & music archive</div>
+
+                        <div class = "row">
+                            <div class = "col-md-auto" id ="img-container">
+                                <img id = "pf-1-main" src = "https://dhphotoarchive.s3.ap-northeast-2.amazonaws.com/portfolio/mainpage_1.png">
+                            </div>
+                            
+                            <div class = "col-md">
+                                <div class = "detail-subcontainer">
+                                    <div class = "detail-text">
+                                        <div class = "s-text">▷ About</div><hr>
+                                        여행 사진과 영상을 추천 음악과 함께 감상할 수 있는 개인 블로그로, 스포티파이 계정으로 로그인하여 음악을 재생하거나 검색할 수 있습니다.
+                                    </div>
+                                    <br>
+                                    <div class = "link">
+                                        ▷ URL <br><hr> <a href = "https://dahyeon45.github.io/dhrchive/" target="_blank">https://dahyeon45.github.io/dhrchive/</a>
+                                    </div>
+                                    
+                                    <br>
+                                    <div class = "detail-text">
+                                        <div class = "s-text">▷ Details</div>
+                                        <hr>
+                                        <div id = "xs-text">1) Spotify Web API</div>
+                                        본 프로젝트의 첫 번째 목표는 Spotify Web API를 활용해보는 것이었습니다. 
+                                        Web API의 기능을 프로젝트에 적용하기 위해 authorization부터 요청을 보내고 응답을 처리하는 것까지 전 과정을 공부하였습니다. 
+                                        해당 과정을 정리한 글은 다음의 링크<a href = "https://dh-archive.tistory.com/13" target="_blank">(Link)🔗</a>에서 확인하실 수 있습니다. 
+                                        <div id = "xs-text">2) React</div>
+                                        리액트를 활용해 제작함으로써 리액트의 라우팅, 훅에 좀 더 익숙해질 수 있었습니다. 
+                                        <div id = "xs-text">3) CSS</div>
+                                        기존의 블로그보다 인터랙티브한 사이트를 제작하고자 노력했고, CSS animation을 적용하는 등 CSS styling에 공을 들였습니다. 
+                                        세부 페이지는 아직 미완성이나, 사진에 따라 설정된 음악이 재생될 수 있도록 제작할 예정입니다. 
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    
+                    </div>
+
+
+
+                </div>
+                <br>
+                <div class = "detail-container">
+                    <div id = "portfolio-2">
+                    <div id = "m-text">2. Audio Reactive Visuals</div>
+                    
+
+                        <div class="row">
+                            <video controls id = "pf-2-video">
+                                <source src = "https://dhphotoarchive.s3.ap-northeast-2.amazonaws.com/portfolio/audioreactivePL.mp4">
+                            </video>
+                        </div>
+
+                        <div class = "col-md">
+                                <div id = "detail-subcontainer-2">
+                                    <div class = "detail-text">
+                                        <div class = "s-text">▷ About</div><hr>
+                                        음악에 반응하여 별이 반짝이는 아트워크입니다. p5.js를 이용하여 제작하였습니다.                          
+                                        </div>
+                                    <br>
+                                    <div class = "link">
+                                        ▷ URL <br><hr> <a href = "https://dahyeon45.github.io/audioreactivePL/" target="_blank">https://dahyeon45.github.io/audioreactivePL/</a>
+                                        
+                                    </div>
+                                    <br>
+                                    <div class = "detail-text">
+                                        <div class = "s-text">▷ Details</div>
+                                        <hr>
+                                        <div id = "xs-text"></div>
+                                        소리의 진동수 구간을 128개로 나누고 128개의 별을 캔버스에 랜덤하게 찍어, 한 개의 별이 한 개의 구간을 대표하도록 하였습니다. 
+                                        p5.sound 라이브러리의 FFT를 통해 각 진동수 구간의 진폭을 담은 배열을 얻었고, 해당 구간의 진폭을 별의 크기로 변환함으로써 진폭에 따라 별의 크기가 달라지게 하였습니다.
+                                        <br>관련 내용은 다음의 링크<a href = "https://dh-archive.tistory.com/8" target="_blank">(Link)🔗</a>에서 확인하실 수 있습니다.
+                                        <br>
+                                    </div>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>                  
+         
+                <br><br>
+                <div id = "l-text">○ Links</div>
+                <div class = "detail-container">
+                    <div id = "portfolio-2">
+                        <div>
+                            <a href = "https://github.com/dahyeon45/" target="_blank">▷ GitHub</a>
+                        </div>
+                        <div>
+                            <a href = "https://dh-archive.tistory.com/" target="_blank">▷ Blog</a> 
+                        </div>
+                    </div>
+                </div>       
+                <!--
+                <div id = "study">
+                    <div id = "l-text">
+                        ○ What I studied so far</div>
+                    <div class = "detail-container">
+                        <div>인터넷 강좌(Coursera, nomadcoders)와 서적을 활용하여 공부한 후,
+                            직접 사이트를 만들어보는 방식으로 공부하였습니다.<br>
+                            HTML, CSS, JavaScript, React 외에 
+                            알고리즘, 자료구조 등 CS 기본지식 공부.
+                            <br><br>
+                        </div>
+                        <button>▽</button>
+                        <span>수강한 강좌들 목록</span>
+                        <div>HTML, CSS, JavaScript</div>
+                        <ul>
+                            <li>Coursera: HTML, CSS, and Javascript for Web Developers
+                                <span> 
+                                    <a href = "https://www.coursera.org/learn/html-css-javascript-for-web-developers/">
+                                    Link
+                                    </a>
+                                </span>
+                            </li>
+                            <li>
+                                Vanilla JS: 바닐라 JS로 크롬 앱 만들기
+                                <a href = "https://nomadcoders.co/javascript-for-beginners">Link</a>
+                            </li>
+
+                        </ul>
+                        <div>React & React Native</div>
+                        <ul>
+                            <li>
+                                ReactJS로 영화 웹 서비스 만들기
+                                <a href = "https://nomadcoders.co/react-for-beginners">Link</a>
+                            </li>
+                            <li>
+                                왕초보를 위한 React Native 101
+                                <a href = "https://nomadcoders.co/react-native-for-beginners">Link</a>
+                            </li>
+                            </ul>
+                        <div>Computer Science Basics</div>
+                        <ul>
+                            <li>Coursera: Divide and Conquer, Sorting and Searching, and Randomized Algorithms
+                                <a href="https://www.coursera.org/learn/algorithms-divide-conquer/">Link</a>
+                            </li>
+                            <li>Coursera: Graph Search, Shortest Paths, and Data Structures
+                                <a href=https://www.coursera.org/learn/algorithms-graphs-data-structures>Link</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>    
+                -->
+
+
+
+
+
+            </div> <!--section2 end-->     
+        </div><!---->
+
+    </div>
+
+
+</body>
+
+
+    <script src = "script.js"></script>
+
+</html>
