@@ -7,7 +7,7 @@ function resizeContainer() {
     var currHeight = window.innerHeight - 200;
     
     if (window.innerWidth < 1200){
-        currHeight -= 150;
+        currHeight += 10;
     }
 
     

@@ -41,7 +41,7 @@ body {
 }
 
 #logo {
-    width: 50px;
+    width: 40px;
     color: white;
     margin: auto;
 }
@@ -151,27 +151,43 @@ a:hover{
     color:rgb(70, 209, 133);
 }
 
-@media (max-width: 1200) {
-.detail-flex{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-}
 
 @media (max-width: 1200px) {
 .detail-flex{
     display: flex;
     flex-wrap: wrap;
 }
+
+#header {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-@media (max-width: 576px){
-body {
-    font-size: 12px;
+#logo {
+    width: 30px;
+    color: white;
+    margin: auto;
 }
+
+#section-2 {
+    /*border: 1px solid black;*/
+    padding: 0px 20px;
+    height: 800px;
+}
+
+#main-name {
+    font-size: 28px;
+    font-family: 'Fugaz One';
+    font-weight: 500;
+    color:rgb(70, 209, 133);
+    line-height: 0.6;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
 #l-text{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -184,28 +200,29 @@ body {
 #xs-text{
     font-size: 14px;
 }
+.detail-subcontainer{
+    font-size: 14px;
+}
+
+#detail-subcontainer-2{
+    font-size: 14px;
+}
+}
+
+@media (max-width: 576px){
+
+
+body {
+    font-size: 12px;
+}
+
 .link{
     font-size: 18px;
 }
 a{
     font-size: 14px;
 }
-.detail-subcontainer{
-    background-color: rgb(230, 238, 234);
-    border-radius: 10px;
-    margin-top: 20px;
-    font-size: 12px;
-    padding: 20px;
-    height: auto;
-}
 
-#detail-subcontainer-2{
-    background-color: rgb(230, 238, 234);
-    border-radius: 10px;
-    margin-top: 20px;
-    font-size: 12px;
-    padding: 20px;
-}
 #pf-1-main{
     width: 300px;
     margin-right: 20px;
