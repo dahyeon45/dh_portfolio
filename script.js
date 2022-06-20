@@ -2,13 +2,13 @@ const section_2 = document.getElementById("section-2");
 
 function resizeContainer() {
     
-    var currHeight = window.innerHeight - 200;
+    var currHeight = window.innerHeight - 120;
     
     if (window.innerWidth <= 1200 && window.innerWidth >= 992){
-        currHeight += 80;
+        currHeight += 0;
     }
     else if (window.innerWidth < 992){
-        currHeight += 10;
+        currHeight -= 60;
     }
     
     section_2.style.height = currHeight + "px";   
